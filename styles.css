@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-top: 5px;
+    height: 90px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.navbar {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border: 10px;
+}
+
+.navbar h2 {
+    font-weight: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+}
+
+.nav-items a:link,
+.nav-items a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-items a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+main {
+    height: 1000px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sobre-mi {
+    width: 60%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.samael-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 422.8px;
+
+    display: block;
+}
+
+.sobre-mi-texto {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+    padding: 0 10px;
+    border: solid black 5px;
+}
+
+.sobre-mi-texto h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 11px;
+    margin-top: 10px;
+}
+
+.sobre-mi-texto p {
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    overflow: auto;
+}
+
+/* TECNOLOGIAS */
+.tecnologias {
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.tecnologias h2 {
+    color: #fff;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.tecnologias-container {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    gap: 50px;
+}
+
+.tecnologias-container div {
+    flex: 1;
+    border: #fff solid 1px;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
